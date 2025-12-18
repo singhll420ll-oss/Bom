@@ -1,0 +1,45 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+sqlalchemy==2.0.23
+asyncpg==0.29.0
+alembic==1.12.1
+
+# Configuration and validation
+pydantic==2.5.0
+pydantic-settings==2.1.0
+python-dotenv==1.0.0
+
+# Authentication and security
+python-multipart==0.0.6
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+email-validator==2.1.0
+
+# External services
+twilio==8.12.1
+httpx==0.25.1
+
+# Templating
+jinja2==3.1.2
+
+# File handling
+pillow==10.1.0
+
+# Date/time utilities
+python-dateutil==2.8.2
+
+# Development and testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+faker==20.1.0
+
+# Code quality
+black==23.11.0
+isort==5.12.0
+mypy==1.7.0
+pre-commit==3.5.0
+
+# Production
+psycopg2-binary==2.9.9
+gunicorn==21.2.0
